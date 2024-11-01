@@ -1,6 +1,5 @@
 import { Address, PrivateKey, PublicKey, Transaction, FT } from "tbc-lib-js"
 
-
 // const privateKey = PrivateKey.fromString("L1u2TmR7hMMMSV9Bx2Lyt3sujbboqEFqnKygnPRnQERhKB4qptuK");
 
 // const publicKey = privateKey.toPublicKey();
