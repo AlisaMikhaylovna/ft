@@ -1,7 +1,7 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Mnemonic } from "tbc-lib-js";
 
-const App = () => {
+const App: React.FC = () => {
   const [mnemonicPhrase, setMnemonicPhrase] = useState("");
   const [privateKey, setPrivateKey] = useState("");
   const [publicKey, setPublicKey] = useState("");
